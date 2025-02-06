@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cae02d0a228ce4e8d1e0e83f53a351, type: 3}
+  m_Name: AK47
+  m_EditorClassIdentifier: 
+  typeHand: 0
+  typeWeapon: 1
+  nameWeapon: 0
+  soundEffects:
+  - {fileID: 8300000, guid: 1b9b872d173af0345b083f5d7258329c, type: 3}
+  - {fileID: 8300000, guid: 85e0a0c653eac4044ae31387562e6381, type: 3}
+  - {fileID: 8300000, guid: e4f94fad2cad02e45a3ef313a9aba2cd, type: 3}
+  - {fileID: 8300000, guid: 8dd69615a74b60643bfad939816c6482, type: 3}
+  damage: 20
+  speedRate: 0.1
+  weight: 1.5
+  rangePoint: 1.8
+  numberOfBullutetOneMage: 30
+  numberOfTotalBullets: 90
+  recoil: 13
+  speedBullet: 80
+  criticalRate: 0.25
+  timeToReloading: 1.5
+  maxNumberOfTarget: 1
+  bulletPrefab: {fileID: 1629583679362498609, guid: 0d2e01bef216b474fa02722c4fe6cbd8, type: 3}
+  damageCritical: 1.5

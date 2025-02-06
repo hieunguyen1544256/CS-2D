@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cae02d0a228ce4e8d1e0e83f53a351, type: 3}
+  m_Name: GrenadeLauncher
+  m_EditorClassIdentifier: 
+  typeHand: 0
+  typeWeapon: 1
+  nameWeapon: 8
+  soundEffects: []
+  damage: 180
+  speedRate: 1
+  weight: 2.1
+  rangePoint: 1.5
+  numberOfBullutetOneMage: 3
+  numberOfTotalBullets: 6
+  recoil: 0
+  speedBullet: 20
+  criticalRate: 0
+  timeToReloading: 2
+  maxNumberOfTarget: 1
+  bulletPrefab: {fileID: 1997716997182320424, guid: cb01a84b52c7c3f4e8ef9183ce672c8b, type: 3}
+  damageCritical: 0

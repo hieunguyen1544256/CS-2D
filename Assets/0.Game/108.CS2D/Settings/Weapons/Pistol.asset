@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cae02d0a228ce4e8d1e0e83f53a351, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  typeHand: 1
+  typeWeapon: 1
+  nameWeapon: 7
+  soundEffects:
+  - {fileID: 8300000, guid: 078476309f2a09f4f89397d95bc8b5ba, type: 3}
+  damage: 13
+  speedRate: 0.1428571
+  weight: 1
+  rangePoint: 1.5
+  numberOfBullutetOneMage: 12
+  numberOfTotalBullets: 36
+  recoil: 5
+  speedBullet: 80
+  criticalRate: 0.2
+  timeToReloading: 0.7
+  maxNumberOfTarget: 1
+  bulletPrefab: {fileID: 1629583679362498609, guid: 0d2e01bef216b474fa02722c4fe6cbd8, type: 3}
+  damageCritical: 1.5

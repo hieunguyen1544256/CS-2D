@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cae02d0a228ce4e8d1e0e83f53a351, type: 3}
+  m_Name: AWP
+  m_EditorClassIdentifier: 
+  typeHand: 0
+  typeWeapon: 1
+  nameWeapon: 1
+  soundEffects:
+  - {fileID: 8300000, guid: b7e558e290bb9b5458f102baefcdbfa9, type: 3}
+  - {fileID: 8300000, guid: 2c72faa8dae52e84d884e68de29973f8, type: 3}
+  - {fileID: 8300000, guid: 10ae371857a86664c833a43cbfb1e785, type: 3}
+  damage: 150
+  speedRate: 1
+  weight: 2
+  rangePoint: 2
+  numberOfBullutetOneMage: 5
+  numberOfTotalBullets: 15
+  recoil: 0
+  speedBullet: 80
+  criticalRate: 0.15
+  timeToReloading: 2
+  maxNumberOfTarget: 1
+  bulletPrefab: {fileID: 1629583679362498609, guid: 0d2e01bef216b474fa02722c4fe6cbd8, type: 3}
+  damageCritical: 1.5
