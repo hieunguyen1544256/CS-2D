@@ -14,6 +14,7 @@ namespace Minigame.CS2D
         public Controller[] Team1;
         public Controller[] Team2;
         public List<Character> AllCharacters = new();
+        public GameObject mainCanvas;
         public PlayerSetting playerSetting;
         public KeyboardSetting keyboardSetting;
         public Blood blood;
@@ -55,10 +56,9 @@ namespace Minigame.CS2D
 
         private void Start()
         {
-            // Game2PlayerScoreControll.instances.SetScoreInGame(0, score1);
-            // Game2PlayerScoreControll.instances.SetScoreInGame(1, score2);
+            ScoreControll.instances.SetScoreInGame(0, score1);
+            ScoreControll.instances.SetScoreInGame(1, score2);
 
-            // TimeCountDown.Instance.StartCountDownTime(SoundManager.instance.allSoundEffect[0], StartGame);
             if (isModeCoop)
             {
                 maxScore = 10;
@@ -114,24 +114,18 @@ namespace Minigame.CS2D
         public void IncreaseScore(int team)
         {
             _ = team == 0 ? score2++ : score1++;
-            // Game2PlayerScoreControll.instances.SetScoreInGame(0, score1);
-            // Game2PlayerScoreControll.instances.SetScoreInGame(1, score2);
+            ScoreControll.instances.SetScoreInGame(0, score1);
+            ScoreControll.instances.SetScoreInGame(1, score2);
 
-            // if (score1 >= maxScore) { FinishGame(0); }
-            // else if (score2 >= maxScore) { FinishGame(1); }
+            if (score1 >= maxScore) { FinishGame(0); }
+            else if (score2 >= maxScore) { FinishGame(1); }
         }
 
         public void FinishGame(int team)
         {
             CanPlayGame = false;
-            if (!isModeCoop)
-            {
-                // Game2PlayerReplayCanvas.instance.ShowReplay(team);
-            }
-            else
-            {
-                // Game2PlayerReplayCanvas.instance.ShowReplayCoop(team == 0 ? 1 : 0);
-            }
+            mainCanvas?.SetActive(false);
+            ReplayCanvas.Instance.ShowReplayCanvas(team);
         }
 
         public void SwitchTestMode()
