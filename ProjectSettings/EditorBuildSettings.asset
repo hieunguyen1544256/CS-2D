@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/0.Game/108.CS2D/SceneHome/HomeScene.unity
+    guid: 488a09d4f48b28e4d9e58e30164ccfdd
+  - enabled: 1
+    path: Assets/0.Game/108.CS2D/SceneGame/CS2D.unity
+    guid: d6ebd3e85be412e4c9d33ebac44b0905
+  - enabled: 1
+    path: Assets/0.Game/108.CS2D/SceneGame/CS2DAI.unity
+    guid: 0f820724a2ac95f4687b32a9f3da5900
+  - enabled: 1
+    path: Assets/0.Game/108.CS2D/SceneGame/CS2DAILanscape.unity
+    guid: 18053addbf071054588e3952dd14d911
+  - enabled: 1
+    path: Assets/0.Game/108.CS2D/SceneGame/CS2DCOOP.unity
+    guid: d9798f9db52660943ad3a0d962ee2d32
   m_configObjects: {}
